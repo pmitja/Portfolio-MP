@@ -39,8 +39,7 @@
   font-weight: 800;
 }
 
-.nav-item:active,
-.nav-item:hover {
+.nav-item:active {
   height: 150%;
   background-color: #656564;
 }
@@ -261,34 +260,59 @@
   position: absolute;
   bottom: 10px;
 }
+
 #ficko {
   background-image: url("../img/ficko.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #bankist_app {
   background-image: url("../img/bankist_app.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #bankist_website {
   background-image: url("../img/bankist_website.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #guess_number {
   background-image: url("../img/guess-number.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #mapty {
   background-image: url("../img/mapty.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 #pig_game {
   background-image: url("../img/piggame.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /* 
