@@ -262,12 +262,12 @@
 }
 
 #ficko {
-  background-image: url("../img/ficko.webp") center/cover no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/ficko.webp");
+  background-position: center;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
+  background-size: 100% 100%;
 }
 
 #bankist_app {
