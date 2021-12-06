@@ -21,6 +21,12 @@
     font-size: 1.4rem;
     font-weight: 500;
   }
+  .btn--full:link,
+  .btn--full:visited {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
   .content-box {
     grid-template-columns: 1fr;
   }
@@ -136,6 +142,10 @@
 
   .heading-tertiary {
     font-size: 2.4rem;
+  }
+
+  .hero {
+    gap: 1rem;
   }
   .button-box {
     flex-direction: column;
