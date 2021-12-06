@@ -16,6 +16,7 @@ allLinks.forEach(function (link) {
       const el = document.querySelector(href);
       el.scrollIntoView({ behavior: "smooth" });
     }
+
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
