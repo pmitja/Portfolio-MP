@@ -264,10 +264,12 @@
 #ficko {
   background-image: url("../img/ficko.webp");
   background-position: center;
+  background-attachment: scroll;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #bankist_app {
