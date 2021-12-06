@@ -1,0 +1,183 @@
+@media screen and (max-width: 1144px) {
+  .figure {
+    height: 300px;
+    width: 300px;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .subheading {
+    font-size: 1.8rem;
+  }
+
+  .description-text {
+    line-height: 1.5;
+  }
+
+  .btn--full:link,
+  .btn--full:visited {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .content-box {
+    grid-template-columns: 1fr;
+  }
+
+  .my-work-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 870px) {
+  /*
+  /////////////// HERO //////////////////
+  */
+  .hero-section {
+    margin-bottom: 5.6rem;
+  }
+
+  .figure {
+    height: 250px;
+    width: 250px;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .description-text {
+    line-height: 1.5;
+  }
+
+  .btn--full:link,
+  .btn--full:visited {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .circle {
+    padding: 4px;
+  }
+
+  /*
+  /////////////// ABOUT //////////////////
+  */
+
+  .about-section {
+    margin-bottom: 8.6rem;
+  }
+
+  .content-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .info-box {
+    gap: 0;
+  }
+
+  .skill-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  /*
+  /////////////// MY WORK //////////////////
+  */
+
+  .my-work-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .hero {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .my-work-box {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 2rem;
+  }
+
+  .card__img {
+    height: 50%;
+  }
+
+  .social-links {
+    flex-direction: row;
+  }
+
+  .contact-form__box {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-item__link span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .heading-primary {
+    font-size: 3.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .button-box {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .btn--full:link,
+  .btn--full:visited {
+    padding: 6px 1.6rem;
+  }
+
+  .card__img {
+    height: 35%;
+  }
+
+  .list-box {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .skill-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .form-el--2 {
+    flex-direction: column;
+  }
+
+  .form-button {
+    width: 100%;
+  }
+
+  .skill-contact {
+    padding: 1.2rem;
+  }
+
+  .nav-item__icon {
+    font-size: 2rem;
+  }
+
+  .nav-item__link {
+    font-size: 0;
+  }
+}
