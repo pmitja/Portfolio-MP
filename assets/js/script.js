@@ -17,6 +17,9 @@ allLinks.forEach(function (link) {
       el.scrollIntoView({ behavior: "smooth" });
     }
 
+    if (link.classList.contains("main-nav-link"))
+      headerEl.classList.toggle("nav-open");
+  });
 });
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
