@@ -136,6 +136,9 @@
 }
 
 @media screen and (max-width: 542px) {
+  .hero-section {
+    margin-bottom: 0;
+  }
   .heading-primary {
     font-size: 3.4rem;
   }
