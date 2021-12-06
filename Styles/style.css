@@ -262,7 +262,7 @@
 }
 
 #ficko {
-  background-image: url("../img/ficko.webp");
+  background-image: url("../img/ficko.webp") center/cover no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   -o-background-size: cover;
@@ -272,11 +272,10 @@
 
 #bankist_app {
   background-image: url("../img/bankist_app.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
+  background-size: cover;
 }
 
 #bankist_website {
@@ -308,11 +307,10 @@
 
 #pig_game {
   background-image: url("../img/piggame.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
+  background-size: cover;
 }
 
 /* 
