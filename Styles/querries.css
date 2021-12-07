@@ -193,6 +193,11 @@
   .nav-item__link {
     font-size: 0;
   }
+
+  .social-links {
+    width: 50%;
+    flex-direction: column;
+  }
 }
 
 @media (hover: none) {
