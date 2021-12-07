@@ -174,7 +174,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 4.6rem;
 
-  align-items: center;
+  align-items: end;
 }
 
 .info-box {
