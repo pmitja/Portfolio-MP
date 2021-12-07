@@ -182,6 +182,10 @@
     padding: 3.2rem;
   }
 
+  .popup {
+    width: 100%;
+  }
+
   .nav-item__icon {
     font-size: 2rem;
   }
