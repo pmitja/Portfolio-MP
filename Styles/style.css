@@ -160,6 +160,7 @@
   bottom: 0;
   color: var(--text-color);
 }
+
 /* 
 /////////// ABOUT SECTION ///////////////////
 */
@@ -212,7 +213,6 @@
 }
 
 .card {
-  min-height: 550px;
   background-color: var(--header-bg);
   padding: 1rem;
 
@@ -220,6 +220,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  justify-content: space-between;
 
   font-size: 1.6rem;
 
@@ -227,14 +228,17 @@
 }
 
 .card__img {
-  height: 170px;
   box-shadow: var(--shadow);
+}
+
+.card__img img {
+  width: 100%;
 }
 
 .card__subtitle {
   text-align: center;
   padding: 1rem;
-  transform: translateY(-20px);
+
   background-color: var(--color-shade);
   width: 90%;
   margin: 0 auto;
@@ -256,12 +260,7 @@
   margin-bottom: 1rem !important;
 }
 
-.card__button {
-  position: absolute;
-  bottom: 10px;
-}
-
-#ficko {
+/* #ficko {
   background-image: url("../img/ficko.webp");
   background-position: center;
   background-attachment: scroll;
@@ -270,9 +269,9 @@
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
-#bankist_app {
+/* #bankist_app {
   background-image: url("../img/bankist_app.webp");
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -313,7 +312,7 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-}
+} */
 
 /* 
 /////////// CTA SECTION ///////////////////
@@ -403,7 +402,7 @@
   box-shadow: 0 0 10px var(--btn-tint);
 }
 
-.skill-item a:hover {
+.skill-item a {
   cursor: pointer;
 }
 
